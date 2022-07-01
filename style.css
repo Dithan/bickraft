@@ -1,1 +1,45 @@
 @charset "UTF-8";
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.header-bg {
+  background-color: black;
+}
+
+.header {
+  box-sizing: border-box;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.header img {
+  display: inline-block;
+}
+
+.header-menu {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.header-menu a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  padding: 16px 0;
+  font-size: 18px;
+}
